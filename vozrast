@@ -1,0 +1,7 @@
+a = int(input()) #day
+b = int(input()) #month
+c = int(input()) #year
+if a <= 25 and b <= 7:
+    print(2019 - c)
+else:
+    print((2019 - c) - 1)
