@@ -1,0 +1,10 @@
+a = int(input())  # day
+b = int(input())  # month
+c = int(input())  # year
+x = int(input())  # today
+y = int(input())  # today month
+z = int(input())  # todey year
+if b <= y and a <= x:
+    print((z - c))
+else:
+    print((z - c) - 1)
