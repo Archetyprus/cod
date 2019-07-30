@@ -1,7 +1,7 @@
-a = int(input()) #day
-b = int(input()) #month
-c = int(input()) #year
+a = int(input("В какой день вы родились? "))  #day
+b = int(input("В какой месяц вы родились? ")) #month
+c = int(input("В какой год вы родились? "))   #year
 if a <= 25 and b <= 7:
-    print(2019 - c)
+    print("Ваш возраст -", (2019 - c))
 else:
-    print((2019 - c) - 1)
+    print("Ваш возраст -", ((2019 - c) - 1))
